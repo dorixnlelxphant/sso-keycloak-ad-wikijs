@@ -1,0 +1,20 @@
+# Secrets & clés — ne JAMAIS committer
+*.key
+*.pem
+*.crt
+privatekey
+publickey
+*.env
+.env
+secrets/
+
+# Données & sauvegardes
+data/
+vw-data/
+*.tar.gz
+*.log
+
+# Système
+.DS_Store
+Thumbs.db
+

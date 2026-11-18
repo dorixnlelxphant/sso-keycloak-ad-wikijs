@@ -78,8 +78,6 @@ Mise en place d'une solution d'**authentification centralisée (Single Sign-On)*
 
 ---
 
-> ⚠️ **Note de sécurité** — Noms de domaine, adresses IP, identifiants et secrets présents dans ce dépôt sont **anonymisés / génériques**. Aucun mot de passe ni secret réel n'est exposé.
-
 ## 👤 Auteur
 
 **Dorian Ponsada** — BTS SIO SISR 2026

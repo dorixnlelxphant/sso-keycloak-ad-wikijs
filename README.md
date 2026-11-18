@@ -18,22 +18,7 @@ Mise en place d'une solution d'**authentification centralisée (Single Sign-On)*
 
 ## 🧱 Architecture
 
-```
-  ┌──────────────── VM-WINDOWS (Windows Server 2022) ────────────────┐
-  │   Active Directory DS  +  DNS  (domaine : example.local)         │
-  └───────────────────────────────┬──────────────────────────────────┘
-                                   │ LDAP (TCP 389)
-                                   │ authentification + attributs (mail)
-  ┌────────────────────────────────┴─────────────────────────────────┐
-  │                     VM-DEBIAN (Docker Compose)                    │
-  │  ┌──────────┐   ┌───────────────┐        ┌───────────────┐         │
-  │  │ Keycloak │───│ PostgreSQL x2 │        │    Wiki.js    │         │
-  │  │  (IdP)   │   └───────────────┘        │  (OpenID C.)  │         │
-  │  └────┬─────┘                            └───────┬───────┘         │
-  └───────┼──────────────────────────────────────────┼───────────────┘
-          │  OpenID Connect (JWT)                     │
-          └──────────── Utilisateur (navigateur) ─────┘
-```
+> Documentation Technique dossier E6 : [`docs/Dossier_E6_Dorian-PONSADA-sso-keycloak-ad-wikijs.pdf`](docs/Dossier_E6_Dorian-PONSADA-sso-keycloak-ad-wikijs.pdf)
 
 > Schéma détaillé : [`docs/architecture.md`](docs/architecture.md)
 

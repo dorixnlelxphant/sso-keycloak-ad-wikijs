@@ -18,7 +18,7 @@ Mise en place d'une solution d'**authentification centralisée (Single Sign-On)*
 
 ## 🧱 Architecture
 
-> Documentation Technique dossier E6 : [`docs/Dossier_E6_Dorian-PONSADA-sso-keycloak-ad-wikijs.pdf`](docs/Dossier_E6_Dorian-PONSADA-sso-keycloak-ad-wikijs.pdf)
+> Annexe 7a dossier E6 : [`docs/Dossier_E6_Dorian-PONSADA-sso-keycloak-ad-wikijs.pdf`](docs/Dossier_E6_Dorian-PONSADA-sso-keycloak-ad-wikijs.pdf)
 
 > Schéma détaillé : [`docs/architecture.md`](docs/architecture.md)
 
@@ -48,7 +48,8 @@ Mise en place d'une solution d'**authentification centralisée (Single Sign-On)*
 │   ├── architecture.md          # Schéma & plan d'adressage
 │   ├── active-directory.md      # Rôle AD DS, OU, utilisateurs, DNS
 │   ├── keycloak-ldap.md         # Intégration LDAP + client Wiki.js
-│   └── wikijs-oidc.md           # Configuration OpenID Connect côté Wiki.js
+│   ├── wikijs-oidc.md           # Configuration OpenID Connect côté Wiki.js
+│   └── Dossier_E6_Dorian-PONSADA-sso-keycloak-ad-wikijs.pdf)           # Annexe 7a Fiche descriptive du projet
 └── configs/
     ├── docker/docker-compose.yml.example
     ├── debian/interfaces.example
